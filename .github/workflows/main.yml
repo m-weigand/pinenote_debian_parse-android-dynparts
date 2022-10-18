@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Docker-based compilation
         id: compile-kernel-in-docker
-        uses: m-weigand/pinenote_parse-android-dynparts@main
+        uses: m-weigand/pinenote_debian_parse-android-dynparts@main
       - name: Upload files
         uses: actions/upload-artifact@v3
         with:
